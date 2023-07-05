@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Tajawal:wght@700;800&display=swap" rel="stylesheet">
+
+  <title>Teste-Menu</title>
+</head>
+
+<body>
+
+  <main>
+
+    <section class="menu">
+      <nav class="menu_lateral">
+
+        <div class="btn_expandir">
+          <span> <i class="size2 bi bi-list">S A S C</i> </span>
+          <hr> <!--linha-->
+        </div>
+
+        <div class="menu_conteudo">
+
+          <ul>
+
+            <div class="item_menu">
+
+
+              <li class="espaco2">
+                <a href="../VisaoGeral/index.html">
+                  <span class="icon size1"><i class="bi bi-bar-chart-line"></i></span>
+                  <span class="txt_link size1">Visão Geral</span>
+                </a>
+              </li>
+
+              <li class="pagAtual espaco2">
+                <a href="../Equipamentos2.0/index.html">
+                  <span class="icon size1 "><i class="bi bi-columns-gap IconAtual"></i></span>
+                  <span class="txt_link size1">Equipamentos</span>
+                </a>
+              </li>
+
+              <li class=" espaco2">
+                <a href="../Dashboard/index.html">
+                  <span class="icon size1 IconAtual"><i class="bi bi-clipboard-data "></i></span>
+                  <span class="txt_link size1">Dashboards</span>
+
+                </a>
+              </li>
+
+              <li class="espaco2">
+                <a href="../CadastroUsuario/index.html">
+                  <span class="icon size1"><i class="bi bi-people"></i></span>
+                  <span class="txt_link size1">Usuários</span>
+                </a>
+              </li>
+
+              <li class="espaco2">
+                <a href="../Configuracao2.0/index.html">
+                  <span class="icon size1"><i class="bi bi-gear"></i></span>
+                  <span class="txt_link size1">Configurações</span>
+                </a>
+              </li>
+            </div>
+
+            <li class="espaco2 btnSair ">
+              <a href="../home/index.html">
+                <span class="icon size1"><i class="bi bi-box-arrow-right"></i></span>
+                <span class="txt_link size1">Sair</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+    </section>
+
+    <section class="equipamentos">
+
+      <div class="txt_equipamentos">
+        <h1> Novos Equipamentos</h1>
+
+
+
+        <h2>Cadastro de equipamentos </h2>
+      </div>
+
+
+
+
+
+      <!---
+            <div class="pseudo_btn_darkmode">
+                <i class="bi bi-brightness-low-fill"></i>
+                <i class="bi bi-cloud-sun-fill"></i>
+            </div> -->
+
+      <div class="cadastro_de_equipamentos">
+
+
+        <form>
+
+          <div class="inputs">
+            <input placeholder="Modelo" type="text" id="campo-modelo">
+            <input placeholder="Categoria" type="text" id="campo-categoria">
+            <input placeholder="Número de Série" type="text" id="campo-numero_de_serie">
+          </div>
+
+          <div class="inputs">
+
+            <input placeholder="Fabricante" type="text" id="campo-fabricante">
+            <input placeholder="Consumo" type="text" id="campo-consumo">
+            <input placeholder="Setor" type="text" id="campo-setor">
+          </div>
+
+          <div class="inputs3">
+            <input placeholder="Ano de Fabricação" type="text" id="campo-ano_de_fabricação">
+            <input placeholder="Preço" type="text" id="campo-preço">
+            <button type="submit">Confirmar</button>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="maquinas_cadastradas">
+        <h3>Máquinas Cadastradas</h3>
+
+        <div class="tabela">
+
+          <table>
+            <tr>
+              <th>Codigo:1</th>
+
+              <td>Modelo 1</td>
+              <td>Fabricante 1</td>
+              <td>Categoria 1</td>
+              <td>Setor 1</td>
+              <td>00/00/00</td>
+              <td>R$9,999</td>
+              <td>1,200 watts/Hr <button>Alterar</button> </td>
+
+            </tr>
+
+
+            <tr>
+              <th>Codigo:2</th>
+              <td>Modelo 2</td>
+              <td>Fabricante 2</td>
+              <td>Categoria 2</td>
+              <td>Setor 2</td>
+              <td>00/00/00</td>
+              <td>R$9,999</td>
+              <td>1,200 watts/Hr <button>Alterar</button> </td>
+            </tr>
+
+            <tr>
+              <th>Codigo:3</th>
+              <td>Modelo 3</td>
+              <td>Fabricante 3</td>
+              <td>Categoria 3</td>
+              <td>Setor 3</td>
+              <td>00/00/00</td>
+              <td>R$9,999</td>
+              <td>1,200 watts/Hr <button>Alterar</button> </td>
+
+            </tr>
+
+            <tr>
+              <th>Codigo:4</th>
+              <td>Modelo 4</td>
+              <td>Fabricante 4</td>
+              <td>Categoria 4</td>
+              <td>Setor 4</td>
+              <td>00/00/00</td>
+              <td>R$9,999</td>
+              <td>1,200 watts/Hr <button>Alterar</button> </td>
+            </tr>
+
+
+
+
+
+
+          </table>
+
+
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+</body>
+
+</html>
